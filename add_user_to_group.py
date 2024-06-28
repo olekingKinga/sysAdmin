@@ -1,3 +1,7 @@
+"""
+Load both OS and subprocess modules
+
+"""
 import os 
 import subprocess
 
