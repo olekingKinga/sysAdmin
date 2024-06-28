@@ -1,9 +1,9 @@
 # function to remove user from the system 
-# Correct
+# tested and working 
 
-import os
+import os # Import the OS module from the Py std library
 
-def remove_user():
+def remove_user(): # define the function
     confirm = 'N'
     while confirm != 'Y':
         username = input("Enter the name of the user to remove: ")
