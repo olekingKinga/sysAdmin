@@ -1,0 +1,14 @@
+# function to remove user from the system 
+# Correct
+
+import os
+
+def remove_user():
+    confirm = 'N'
+    while confirm != 'Y':
+        username = input("Enter the name of the user to remove: ")
+        print("Remove the user : '" + username + "'? (Y/N)")
+        confirm = input().upper()
+    os.system("sudo userdel -r --force " + username)
+
+remove_user() 
