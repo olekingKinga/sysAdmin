@@ -1,5 +1,3 @@
-# Script to add a new user to the Linux Account 
-# Correct
 import os #Import the os module to access interactive system() class 
 
 def new_user(): # define and initialize the python funtion
